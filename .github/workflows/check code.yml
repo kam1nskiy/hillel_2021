@@ -1,9 +1,7 @@
 name: linter-flake8 check
 
-on: 
-  pull_request:
-    branches:
-      - main
+on: [push, pull_request]
+
 jobs:
   build:
     runs-on: ubuntu-latest
