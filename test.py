@@ -1,3 +1,3 @@
 import math
 
-math.sqrt(12)
+math.sqrt( 12)
